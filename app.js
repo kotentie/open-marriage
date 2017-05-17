@@ -33,8 +33,8 @@ app.engine('hbs', exphbs({
 app.expose(config.yui.config, 'window.YUI_config');
 
 app.locals({
-    title   : 'Leslie & Eric',
-    appTitle: 'L&E Wedding',
+    title   : 'Jake & Susy',
+    appTitle: 'J&S Wedding',
 
     version    : config.version,
     yui_version: config.yui.version,
