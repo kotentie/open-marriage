@@ -1,0 +1,731 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\PROGRAM FILES\\NODEJS\\node.exe',
+1 verbose cli   'C:\\PROGRAM FILES\\NODEJS\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.1.32
+3 info using node@v0.8.0
+4 verbose config file C:\Users\jake\.npmrc
+5 verbose config file C:\PROGRAM FILES\NODEJS\etc\npmrc
+6 verbose config file C:\Users\jake\AppData\Roaming\nvm\v0.8.0\node_modules\npm\npmrc
+7 verbose read json C:\Users\jake\My Documents\GitHub\wedding\package.json
+8 info shrinkwrap file "C:\\Users\\jake\\My Documents\\GitHub\\wedding\\npm-shrinkwrap.json"
+9 verbose readDependencies returned deps { async: 'https://registry.npmjs.org/async/-/async-0.2.7.tgz',
+9 verbose readDependencies returned deps   bower: 'https://registry.npmjs.org/bower/-/bower-1.2.7.tgz',
+9 verbose readDependencies returned deps   combohandler: 'combohandler@0.2.2',
+9 verbose readDependencies returned deps   csv: 'https://registry.npmjs.org/csv/-/csv-0.3.0.tgz',
+9 verbose readDependencies returned deps   'db-migrate': 'https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz',
+9 verbose readDependencies returned deps   'deep-freeze': 'https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz',
+9 verbose readDependencies returned deps   express: 'https://registry.npmjs.org/express/-/express-3.2.4.tgz',
+9 verbose readDependencies returned deps   'express-slash': 'https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz',
+9 verbose readDependencies returned deps   'express-state': 'https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz',
+9 verbose readDependencies returned deps   'express3-handlebars': 'https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz',
+9 verbose readDependencies returned deps   handlebars: 'https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz',
+9 verbose readDependencies returned deps   pg: 'https://registry.npmjs.org/pg/-/pg-1.1.0.tgz',
+9 verbose readDependencies returned deps   request: 'https://registry.npmjs.org/request/-/request-2.25.0.tgz',
+9 verbose readDependencies returned deps   'aws-sign': 'aws-sign@0.3.0',
+9 verbose readDependencies returned deps   'cookie-jar': 'cookie-jar@0.3.0',
+9 verbose readDependencies returned deps   cryptiles: 'cryptiles@0.2.2',
+9 verbose readDependencies returned deps   'forever-agent': 'forever-agent@0.5.0',
+9 verbose readDependencies returned deps   glob: 'glob@3.2.6',
+9 verbose readDependencies returned deps   inherits: 'inherits@2.0.1',
+9 verbose readDependencies returned deps   'lru-cache': 'lru-cache@2.3.1',
+9 verbose readDependencies returned deps   mkdirp: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz',
+9 verbose readDependencies returned deps   'node-uuid': 'node-uuid@1.4.1',
+9 verbose readDependencies returned deps   'oauth-sign': 'oauth-sign@0.3.0',
+9 verbose readDependencies returned deps   optimist: 'https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz',
+9 verbose readDependencies returned deps   qs: 'qs@0.6.4',
+9 verbose readDependencies returned deps   'tunnel-agent': 'tunnel-agent@0.3.0',
+9 verbose readDependencies returned deps   wordwrap: 'wordwrap@0.0.2',
+9 verbose readDependencies returned deps   boom: 'boom@0.4.2',
+9 verbose readDependencies returned deps   'combined-stream': 'combined-stream@0.0.4',
+9 verbose readDependencies returned deps   'http-signature': 'http-signature@0.10.0',
+9 verbose readDependencies returned deps   minimatch: 'minimatch@0.2.12',
+9 verbose readDependencies returned deps   sntp: 'sntp@0.2.4' }
+10 verbose install where, deps [ 'C:\\Users\\jake\\My Documents\\GitHub\\wedding',
+10 verbose install   [ 'async',
+10 verbose install     'bower',
+10 verbose install     'combohandler',
+10 verbose install     'csv',
+10 verbose install     'db-migrate',
+10 verbose install     'deep-freeze',
+10 verbose install     'express',
+10 verbose install     'express-slash',
+10 verbose install     'express-state',
+10 verbose install     'express3-handlebars',
+10 verbose install     'handlebars',
+10 verbose install     'pg',
+10 verbose install     'request',
+10 verbose install     'aws-sign',
+10 verbose install     'cookie-jar',
+10 verbose install     'cryptiles',
+10 verbose install     'forever-agent',
+10 verbose install     'glob',
+10 verbose install     'inherits',
+10 verbose install     'lru-cache',
+10 verbose install     'mkdirp',
+10 verbose install     'node-uuid',
+10 verbose install     'oauth-sign',
+10 verbose install     'optimist',
+10 verbose install     'qs',
+10 verbose install     'tunnel-agent',
+10 verbose install     'wordwrap',
+10 verbose install     'boom',
+10 verbose install     'combined-stream',
+10 verbose install     'http-signature',
+10 verbose install     'minimatch',
+10 verbose install     'sntp' ] ]
+11 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\package.json
+12 info preinstall leslie-eric.us@1.8.0
+13 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\async\package.json
+14 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\aws-sign\package.json
+15 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\boom\package.json
+16 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\bower\package.json
+17 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\combined-stream\package.json
+18 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\combohandler\package.json
+19 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\cookie-jar\package.json
+20 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\cryptiles\package.json
+21 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\csv\package.json
+22 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\db-migrate\package.json
+23 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\deep-freeze\package.json
+24 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\express\package.json
+25 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\express-slash\package.json
+26 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\express-state\package.json
+27 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\express3-handlebars\package.json
+28 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\forever-agent\package.json
+29 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\glob\package.json
+30 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\handlebars\package.json
+31 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\http-signature\package.json
+32 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\inherits\package.json
+33 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\lru-cache\package.json
+34 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\minimatch\package.json
+35 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\mkdirp\package.json
+36 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\node-uuid\package.json
+37 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\oauth-sign\package.json
+38 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\optimist\package.json
+39 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\pg\package.json
+40 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\qs\package.json
+41 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\request\package.json
+42 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\sntp\package.json
+43 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\tunnel-agent\package.json
+44 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\wordwrap\package.json
+45 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\package.json
+46 info shrinkwrap file "C:\\Users\\jake\\My Documents\\GitHub\\wedding\\npm-shrinkwrap.json"
+47 verbose readDependencies returned deps { async: 'https://registry.npmjs.org/async/-/async-0.2.7.tgz',
+47 verbose readDependencies returned deps   bower: 'https://registry.npmjs.org/bower/-/bower-1.2.7.tgz',
+47 verbose readDependencies returned deps   combohandler: 'combohandler@0.2.2',
+47 verbose readDependencies returned deps   csv: 'https://registry.npmjs.org/csv/-/csv-0.3.0.tgz',
+47 verbose readDependencies returned deps   'db-migrate': 'https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz',
+47 verbose readDependencies returned deps   'deep-freeze': 'https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz',
+47 verbose readDependencies returned deps   express: 'https://registry.npmjs.org/express/-/express-3.2.4.tgz',
+47 verbose readDependencies returned deps   'express-slash': 'https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz',
+47 verbose readDependencies returned deps   'express-state': 'https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz',
+47 verbose readDependencies returned deps   'express3-handlebars': 'https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz',
+47 verbose readDependencies returned deps   handlebars: 'https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz',
+47 verbose readDependencies returned deps   pg: 'https://registry.npmjs.org/pg/-/pg-1.1.0.tgz',
+47 verbose readDependencies returned deps   request: 'https://registry.npmjs.org/request/-/request-2.25.0.tgz',
+47 verbose readDependencies returned deps   'aws-sign': 'aws-sign@0.3.0',
+47 verbose readDependencies returned deps   'cookie-jar': 'cookie-jar@0.3.0',
+47 verbose readDependencies returned deps   cryptiles: 'cryptiles@0.2.2',
+47 verbose readDependencies returned deps   'forever-agent': 'forever-agent@0.5.0',
+47 verbose readDependencies returned deps   glob: 'glob@3.2.6',
+47 verbose readDependencies returned deps   inherits: 'inherits@2.0.1',
+47 verbose readDependencies returned deps   'lru-cache': 'lru-cache@2.3.1',
+47 verbose readDependencies returned deps   mkdirp: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz',
+47 verbose readDependencies returned deps   'node-uuid': 'node-uuid@1.4.1',
+47 verbose readDependencies returned deps   'oauth-sign': 'oauth-sign@0.3.0',
+47 verbose readDependencies returned deps   optimist: 'https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz',
+47 verbose readDependencies returned deps   qs: 'qs@0.6.4',
+47 verbose readDependencies returned deps   'tunnel-agent': 'tunnel-agent@0.3.0',
+47 verbose readDependencies returned deps   wordwrap: 'wordwrap@0.0.2',
+47 verbose readDependencies returned deps   boom: 'boom@0.4.2',
+47 verbose readDependencies returned deps   'combined-stream': 'combined-stream@0.0.4',
+47 verbose readDependencies returned deps   'http-signature': 'http-signature@0.10.0',
+47 verbose readDependencies returned deps   minimatch: 'minimatch@0.2.12',
+47 verbose readDependencies returned deps   sntp: 'sntp@0.2.4' }
+48 verbose read json C:\Users\jake\My Documents\GitHub\wedding\node_modules\.bin\package.json
+49 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\async\package.json
+50 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\aws-sign\package.json
+51 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\boom\package.json
+52 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\bower\package.json
+53 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\combined-stream\package.json
+54 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\combohandler\package.json
+55 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\cookie-jar\package.json
+56 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\cryptiles\package.json
+57 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\csv\package.json
+58 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\db-migrate\package.json
+59 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\deep-freeze\package.json
+60 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\express\package.json
+61 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\express-slash\package.json
+62 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\express-state\package.json
+63 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\express3-handlebars\package.json
+64 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\forever-agent\package.json
+65 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\glob\package.json
+66 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\handlebars\package.json
+67 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\http-signature\package.json
+68 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\inherits\package.json
+69 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\lru-cache\package.json
+70 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\minimatch\package.json
+71 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\mkdirp\package.json
+72 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\node-uuid\package.json
+73 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\oauth-sign\package.json
+74 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\optimist\package.json
+75 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\pg\package.json
+76 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\qs\package.json
+77 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\request\package.json
+78 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\sntp\package.json
+79 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\tunnel-agent\package.json
+80 verbose from cache C:\Users\jake\My Documents\GitHub\wedding\node_modules\wordwrap\package.json
+81 verbose cache add [ 'async@https://registry.npmjs.org/async/-/async-0.2.7.tgz',
+81 verbose cache add   null ]
+82 silly cache add name=undefined spec="async@https://registry.npmjs.org/async/-/async-0.2.7.tgz" args=["async@https://registry.npmjs.org/async/-/async-0.2.7.tgz",null]
+83 verbose parsed url { pathname: 'async@https://registry.npmjs.org/async/-/async-0.2.7.tgz',
+83 verbose parsed url   path: 'async@https://registry.npmjs.org/async/-/async-0.2.7.tgz',
+83 verbose parsed url   href: 'async@https://registry.npmjs.org/async/-/async-0.2.7.tgz' }
+84 silly cache add name="async" spec="https://registry.npmjs.org/async/-/async-0.2.7.tgz" args=["async","https://registry.npmjs.org/async/-/async-0.2.7.tgz"]
+85 verbose parsed url { protocol: 'https:',
+85 verbose parsed url   slashes: true,
+85 verbose parsed url   host: 'registry.npmjs.org',
+85 verbose parsed url   hostname: 'registry.npmjs.org',
+85 verbose parsed url   href: 'https://registry.npmjs.org/async/-/async-0.2.7.tgz',
+85 verbose parsed url   pathname: '/async/-/async-0.2.7.tgz',
+85 verbose parsed url   path: '/async/-/async-0.2.7.tgz' }
+86 verbose addRemoteTarball [ 'https://registry.npmjs.org/async/-/async-0.2.7.tgz', null ]
+87 verbose cache add [ 'bower@https://registry.npmjs.org/bower/-/bower-1.2.7.tgz',
+87 verbose cache add   null ]
+88 silly cache add name=undefined spec="bower@https://registry.npmjs.org/bower/-/bower-1.2.7.tgz" args=["bower@https://registry.npmjs.org/bower/-/bower-1.2.7.tgz",null]
+89 verbose parsed url { pathname: 'bower@https://registry.npmjs.org/bower/-/bower-1.2.7.tgz',
+89 verbose parsed url   path: 'bower@https://registry.npmjs.org/bower/-/bower-1.2.7.tgz',
+89 verbose parsed url   href: 'bower@https://registry.npmjs.org/bower/-/bower-1.2.7.tgz' }
+90 silly cache add name="bower" spec="https://registry.npmjs.org/bower/-/bower-1.2.7.tgz" args=["bower","https://registry.npmjs.org/bower/-/bower-1.2.7.tgz"]
+91 verbose parsed url { protocol: 'https:',
+91 verbose parsed url   slashes: true,
+91 verbose parsed url   host: 'registry.npmjs.org',
+91 verbose parsed url   hostname: 'registry.npmjs.org',
+91 verbose parsed url   href: 'https://registry.npmjs.org/bower/-/bower-1.2.7.tgz',
+91 verbose parsed url   pathname: '/bower/-/bower-1.2.7.tgz',
+91 verbose parsed url   path: '/bower/-/bower-1.2.7.tgz' }
+92 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.2.7.tgz', null ]
+93 verbose cache add [ 'combohandler@combohandler@0.2.2', null ]
+94 silly cache add name=undefined spec="combohandler@combohandler@0.2.2" args=["combohandler@combohandler@0.2.2",null]
+95 verbose parsed url { pathname: 'combohandler@combohandler@0.2.2',
+95 verbose parsed url   path: 'combohandler@combohandler@0.2.2',
+95 verbose parsed url   href: 'combohandler@combohandler@0.2.2' }
+96 silly cache add name="combohandler" spec="combohandler@0.2.2" args=["combohandler","combohandler@0.2.2"]
+97 verbose parsed url { pathname: 'combohandler@0.2.2',
+97 verbose parsed url   path: 'combohandler@0.2.2',
+97 verbose parsed url   href: 'combohandler@0.2.2' }
+98 verbose addNamed [ 'combohandler', 'combohandler@0.2.2' ]
+99 verbose addNamed [ null, null ]
+100 info addNameTag [ 'combohandler', 'combohandler@0.2.2' ]
+101 verbose cache add [ 'csv@https://registry.npmjs.org/csv/-/csv-0.3.0.tgz', null ]
+102 silly cache add name=undefined spec="csv@https://registry.npmjs.org/csv/-/csv-0.3.0.tgz" args=["csv@https://registry.npmjs.org/csv/-/csv-0.3.0.tgz",null]
+103 verbose parsed url { pathname: 'csv@https://registry.npmjs.org/csv/-/csv-0.3.0.tgz',
+103 verbose parsed url   path: 'csv@https://registry.npmjs.org/csv/-/csv-0.3.0.tgz',
+103 verbose parsed url   href: 'csv@https://registry.npmjs.org/csv/-/csv-0.3.0.tgz' }
+104 silly cache add name="csv" spec="https://registry.npmjs.org/csv/-/csv-0.3.0.tgz" args=["csv","https://registry.npmjs.org/csv/-/csv-0.3.0.tgz"]
+105 verbose parsed url { protocol: 'https:',
+105 verbose parsed url   slashes: true,
+105 verbose parsed url   host: 'registry.npmjs.org',
+105 verbose parsed url   hostname: 'registry.npmjs.org',
+105 verbose parsed url   href: 'https://registry.npmjs.org/csv/-/csv-0.3.0.tgz',
+105 verbose parsed url   pathname: '/csv/-/csv-0.3.0.tgz',
+105 verbose parsed url   path: '/csv/-/csv-0.3.0.tgz' }
+106 verbose addRemoteTarball [ 'https://registry.npmjs.org/csv/-/csv-0.3.0.tgz', null ]
+107 verbose cache add [ 'db-migrate@https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz',
+107 verbose cache add   null ]
+108 silly cache add name=undefined spec="db-migrate@https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz" args=["db-migrate@https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz",null]
+109 verbose parsed url { pathname: 'db-migrate@https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz',
+109 verbose parsed url   path: 'db-migrate@https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz',
+109 verbose parsed url   href: 'db-migrate@https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz' }
+110 silly cache add name="db-migrate" spec="https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz" args=["db-migrate","https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz"]
+111 verbose parsed url { protocol: 'https:',
+111 verbose parsed url   slashes: true,
+111 verbose parsed url   host: 'registry.npmjs.org',
+111 verbose parsed url   hostname: 'registry.npmjs.org',
+111 verbose parsed url   href: 'https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz',
+111 verbose parsed url   pathname: '/db-migrate/-/db-migrate-0.4.1.tgz',
+111 verbose parsed url   path: '/db-migrate/-/db-migrate-0.4.1.tgz' }
+112 verbose addRemoteTarball [ 'https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz',
+112 verbose addRemoteTarball   null ]
+113 verbose cache add [ 'deep-freeze@https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz',
+113 verbose cache add   null ]
+114 silly cache add name=undefined spec="deep-freeze@https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz" args=["deep-freeze@https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz",null]
+115 verbose parsed url { pathname: 'deep-freeze@https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz',
+115 verbose parsed url   path: 'deep-freeze@https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz',
+115 verbose parsed url   href: 'deep-freeze@https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz' }
+116 silly cache add name="deep-freeze" spec="https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz" args=["deep-freeze","https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz"]
+117 verbose parsed url { protocol: 'https:',
+117 verbose parsed url   slashes: true,
+117 verbose parsed url   host: 'registry.npmjs.org',
+117 verbose parsed url   hostname: 'registry.npmjs.org',
+117 verbose parsed url   href: 'https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz',
+117 verbose parsed url   pathname: '/deep-freeze/-/deep-freeze-0.0.1.tgz',
+117 verbose parsed url   path: '/deep-freeze/-/deep-freeze-0.0.1.tgz' }
+118 verbose addRemoteTarball [ 'https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz',
+118 verbose addRemoteTarball   null ]
+119 verbose cache add [ 'express@https://registry.npmjs.org/express/-/express-3.2.4.tgz',
+119 verbose cache add   null ]
+120 silly cache add name=undefined spec="express@https://registry.npmjs.org/express/-/express-3.2.4.tgz" args=["express@https://registry.npmjs.org/express/-/express-3.2.4.tgz",null]
+121 verbose parsed url { pathname: 'express@https://registry.npmjs.org/express/-/express-3.2.4.tgz',
+121 verbose parsed url   path: 'express@https://registry.npmjs.org/express/-/express-3.2.4.tgz',
+121 verbose parsed url   href: 'express@https://registry.npmjs.org/express/-/express-3.2.4.tgz' }
+122 silly cache add name="express" spec="https://registry.npmjs.org/express/-/express-3.2.4.tgz" args=["express","https://registry.npmjs.org/express/-/express-3.2.4.tgz"]
+123 verbose parsed url { protocol: 'https:',
+123 verbose parsed url   slashes: true,
+123 verbose parsed url   host: 'registry.npmjs.org',
+123 verbose parsed url   hostname: 'registry.npmjs.org',
+123 verbose parsed url   href: 'https://registry.npmjs.org/express/-/express-3.2.4.tgz',
+123 verbose parsed url   pathname: '/express/-/express-3.2.4.tgz',
+123 verbose parsed url   path: '/express/-/express-3.2.4.tgz' }
+124 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.2.4.tgz',
+124 verbose addRemoteTarball   null ]
+125 verbose cache add [ 'express-slash@https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz',
+125 verbose cache add   null ]
+126 silly cache add name=undefined spec="express-slash@https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz" args=["express-slash@https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz",null]
+127 verbose parsed url { pathname: 'express-slash@https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz',
+127 verbose parsed url   path: 'express-slash@https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz',
+127 verbose parsed url   href: 'express-slash@https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz' }
+128 silly cache add name="express-slash" spec="https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz" args=["express-slash","https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz"]
+129 verbose parsed url { protocol: 'https:',
+129 verbose parsed url   slashes: true,
+129 verbose parsed url   host: 'registry.npmjs.org',
+129 verbose parsed url   hostname: 'registry.npmjs.org',
+129 verbose parsed url   href: 'https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz',
+129 verbose parsed url   pathname: '/express-slash/-/express-slash-0.2.0.tgz',
+129 verbose parsed url   path: '/express-slash/-/express-slash-0.2.0.tgz' }
+130 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz',
+130 verbose addRemoteTarball   null ]
+131 verbose cache add [ 'express-state@https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz',
+131 verbose cache add   null ]
+132 silly cache add name=undefined spec="express-state@https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz" args=["express-state@https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz",null]
+133 verbose parsed url { pathname: 'express-state@https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz',
+133 verbose parsed url   path: 'express-state@https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz',
+133 verbose parsed url   href: 'express-state@https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz' }
+134 silly cache add name="express-state" spec="https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz" args=["express-state","https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz"]
+135 verbose parsed url { protocol: 'https:',
+135 verbose parsed url   slashes: true,
+135 verbose parsed url   host: 'registry.npmjs.org',
+135 verbose parsed url   hostname: 'registry.npmjs.org',
+135 verbose parsed url   href: 'https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz',
+135 verbose parsed url   pathname: '/express-state/-/express-state-0.0.2.tgz',
+135 verbose parsed url   path: '/express-state/-/express-state-0.0.2.tgz' }
+136 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz',
+136 verbose addRemoteTarball   null ]
+137 verbose cache add [ 'express3-handlebars@https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz',
+137 verbose cache add   null ]
+138 silly cache add name=undefined spec="express3-handlebars@https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz" args=["express3-handlebars@https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz",null]
+139 verbose parsed url { pathname: 'express3-handlebars@https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz',
+139 verbose parsed url   path: 'express3-handlebars@https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz',
+139 verbose parsed url   href: 'express3-handlebars@https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz' }
+140 silly cache add name="express3-handlebars" spec="https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz" args=["express3-handlebars","https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz"]
+141 verbose parsed url { protocol: 'https:',
+141 verbose parsed url   slashes: true,
+141 verbose parsed url   host: 'registry.npmjs.org',
+141 verbose parsed url   hostname: 'registry.npmjs.org',
+141 verbose parsed url   href: 'https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz',
+141 verbose parsed url   pathname: '/express3-handlebars/-/express3-handlebars-0.5.0.tgz',
+141 verbose parsed url   path: '/express3-handlebars/-/express3-handlebars-0.5.0.tgz' }
+142 verbose addRemoteTarball [ 'https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz',
+142 verbose addRemoteTarball   null ]
+143 verbose cache add [ 'handlebars@https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz',
+143 verbose cache add   null ]
+144 silly cache add name=undefined spec="handlebars@https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz" args=["handlebars@https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz",null]
+145 verbose parsed url { pathname: 'handlebars@https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz',
+145 verbose parsed url   path: 'handlebars@https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz',
+145 verbose parsed url   href: 'handlebars@https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz' }
+146 silly cache add name="handlebars" spec="https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz" args=["handlebars","https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz"]
+147 verbose parsed url { protocol: 'https:',
+147 verbose parsed url   slashes: true,
+147 verbose parsed url   host: 'registry.npmjs.org',
+147 verbose parsed url   hostname: 'registry.npmjs.org',
+147 verbose parsed url   href: 'https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz',
+147 verbose parsed url   pathname: '/handlebars/-/handlebars-1.0.12.tgz',
+147 verbose parsed url   path: '/handlebars/-/handlebars-1.0.12.tgz' }
+148 verbose addRemoteTarball [ 'https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz',
+148 verbose addRemoteTarball   null ]
+149 verbose cache add [ 'pg@https://registry.npmjs.org/pg/-/pg-1.1.0.tgz', null ]
+150 silly cache add name=undefined spec="pg@https://registry.npmjs.org/pg/-/pg-1.1.0.tgz" args=["pg@https://registry.npmjs.org/pg/-/pg-1.1.0.tgz",null]
+151 verbose parsed url { pathname: 'pg@https://registry.npmjs.org/pg/-/pg-1.1.0.tgz',
+151 verbose parsed url   path: 'pg@https://registry.npmjs.org/pg/-/pg-1.1.0.tgz',
+151 verbose parsed url   href: 'pg@https://registry.npmjs.org/pg/-/pg-1.1.0.tgz' }
+152 silly cache add name="pg" spec="https://registry.npmjs.org/pg/-/pg-1.1.0.tgz" args=["pg","https://registry.npmjs.org/pg/-/pg-1.1.0.tgz"]
+153 verbose parsed url { protocol: 'https:',
+153 verbose parsed url   slashes: true,
+153 verbose parsed url   host: 'registry.npmjs.org',
+153 verbose parsed url   hostname: 'registry.npmjs.org',
+153 verbose parsed url   href: 'https://registry.npmjs.org/pg/-/pg-1.1.0.tgz',
+153 verbose parsed url   pathname: '/pg/-/pg-1.1.0.tgz',
+153 verbose parsed url   path: '/pg/-/pg-1.1.0.tgz' }
+154 verbose addRemoteTarball [ 'https://registry.npmjs.org/pg/-/pg-1.1.0.tgz', null ]
+155 verbose cache add [ 'request@https://registry.npmjs.org/request/-/request-2.25.0.tgz',
+155 verbose cache add   null ]
+156 silly cache add name=undefined spec="request@https://registry.npmjs.org/request/-/request-2.25.0.tgz" args=["request@https://registry.npmjs.org/request/-/request-2.25.0.tgz",null]
+157 verbose parsed url { pathname: 'request@https://registry.npmjs.org/request/-/request-2.25.0.tgz',
+157 verbose parsed url   path: 'request@https://registry.npmjs.org/request/-/request-2.25.0.tgz',
+157 verbose parsed url   href: 'request@https://registry.npmjs.org/request/-/request-2.25.0.tgz' }
+158 silly cache add name="request" spec="https://registry.npmjs.org/request/-/request-2.25.0.tgz" args=["request","https://registry.npmjs.org/request/-/request-2.25.0.tgz"]
+159 verbose parsed url { protocol: 'https:',
+159 verbose parsed url   slashes: true,
+159 verbose parsed url   host: 'registry.npmjs.org',
+159 verbose parsed url   hostname: 'registry.npmjs.org',
+159 verbose parsed url   href: 'https://registry.npmjs.org/request/-/request-2.25.0.tgz',
+159 verbose parsed url   pathname: '/request/-/request-2.25.0.tgz',
+159 verbose parsed url   path: '/request/-/request-2.25.0.tgz' }
+160 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.25.0.tgz',
+160 verbose addRemoteTarball   null ]
+161 verbose cache add [ 'aws-sign@aws-sign@0.3.0', null ]
+162 silly cache add name=undefined spec="aws-sign@aws-sign@0.3.0" args=["aws-sign@aws-sign@0.3.0",null]
+163 verbose parsed url { pathname: 'aws-sign@aws-sign@0.3.0',
+163 verbose parsed url   path: 'aws-sign@aws-sign@0.3.0',
+163 verbose parsed url   href: 'aws-sign@aws-sign@0.3.0' }
+164 silly cache add name="aws-sign" spec="aws-sign@0.3.0" args=["aws-sign","aws-sign@0.3.0"]
+165 verbose parsed url { pathname: 'aws-sign@0.3.0',
+165 verbose parsed url   path: 'aws-sign@0.3.0',
+165 verbose parsed url   href: 'aws-sign@0.3.0' }
+166 verbose addNamed [ 'aws-sign', 'aws-sign@0.3.0' ]
+167 verbose addNamed [ null, null ]
+168 info addNameTag [ 'aws-sign', 'aws-sign@0.3.0' ]
+169 verbose cache add [ 'cookie-jar@cookie-jar@0.3.0', null ]
+170 silly cache add name=undefined spec="cookie-jar@cookie-jar@0.3.0" args=["cookie-jar@cookie-jar@0.3.0",null]
+171 verbose parsed url { pathname: 'cookie-jar@cookie-jar@0.3.0',
+171 verbose parsed url   path: 'cookie-jar@cookie-jar@0.3.0',
+171 verbose parsed url   href: 'cookie-jar@cookie-jar@0.3.0' }
+172 silly cache add name="cookie-jar" spec="cookie-jar@0.3.0" args=["cookie-jar","cookie-jar@0.3.0"]
+173 verbose parsed url { pathname: 'cookie-jar@0.3.0',
+173 verbose parsed url   path: 'cookie-jar@0.3.0',
+173 verbose parsed url   href: 'cookie-jar@0.3.0' }
+174 verbose addNamed [ 'cookie-jar', 'cookie-jar@0.3.0' ]
+175 verbose addNamed [ null, null ]
+176 info addNameTag [ 'cookie-jar', 'cookie-jar@0.3.0' ]
+177 verbose url raw combohandler
+178 verbose url resolving [ 'https://registry.npmjs.org/', './combohandler' ]
+179 verbose url resolved https://registry.npmjs.org/combohandler
+180 http GET https://registry.npmjs.org/combohandler
+181 verbose url raw aws-sign
+182 verbose url resolving [ 'https://registry.npmjs.org/', './aws-sign' ]
+183 verbose url resolved https://registry.npmjs.org/aws-sign
+184 http GET https://registry.npmjs.org/aws-sign
+185 verbose cache add [ 'glob@glob@3.2.6', null ]
+186 silly cache add name=undefined spec="glob@glob@3.2.6" args=["glob@glob@3.2.6",null]
+187 verbose parsed url { pathname: 'glob@glob@3.2.6',
+187 verbose parsed url   path: 'glob@glob@3.2.6',
+187 verbose parsed url   href: 'glob@glob@3.2.6' }
+188 silly cache add name="glob" spec="glob@3.2.6" args=["glob","glob@3.2.6"]
+189 verbose parsed url { pathname: 'glob@3.2.6',
+189 verbose parsed url   path: 'glob@3.2.6',
+189 verbose parsed url   href: 'glob@3.2.6' }
+190 verbose addNamed [ 'glob', 'glob@3.2.6' ]
+191 verbose addNamed [ null, null ]
+192 info addNameTag [ 'glob', 'glob@3.2.6' ]
+193 verbose cache add [ 'inherits@inherits@2.0.1', null ]
+194 silly cache add name=undefined spec="inherits@inherits@2.0.1" args=["inherits@inherits@2.0.1",null]
+195 verbose parsed url { pathname: 'inherits@inherits@2.0.1',
+195 verbose parsed url   path: 'inherits@inherits@2.0.1',
+195 verbose parsed url   href: 'inherits@inherits@2.0.1' }
+196 silly cache add name="inherits" spec="inherits@2.0.1" args=["inherits","inherits@2.0.1"]
+197 verbose parsed url { pathname: 'inherits@2.0.1',
+197 verbose parsed url   path: 'inherits@2.0.1',
+197 verbose parsed url   href: 'inherits@2.0.1' }
+198 verbose addNamed [ 'inherits', 'inherits@2.0.1' ]
+199 verbose addNamed [ null, null ]
+200 info addNameTag [ 'inherits', 'inherits@2.0.1' ]
+201 verbose cache add [ 'cryptiles@cryptiles@0.2.2', null ]
+202 silly cache add name=undefined spec="cryptiles@cryptiles@0.2.2" args=["cryptiles@cryptiles@0.2.2",null]
+203 verbose parsed url { pathname: 'cryptiles@cryptiles@0.2.2',
+203 verbose parsed url   path: 'cryptiles@cryptiles@0.2.2',
+203 verbose parsed url   href: 'cryptiles@cryptiles@0.2.2' }
+204 silly cache add name="cryptiles" spec="cryptiles@0.2.2" args=["cryptiles","cryptiles@0.2.2"]
+205 verbose parsed url { pathname: 'cryptiles@0.2.2',
+205 verbose parsed url   path: 'cryptiles@0.2.2',
+205 verbose parsed url   href: 'cryptiles@0.2.2' }
+206 verbose addNamed [ 'cryptiles', 'cryptiles@0.2.2' ]
+207 verbose addNamed [ null, null ]
+208 info addNameTag [ 'cryptiles', 'cryptiles@0.2.2' ]
+209 verbose cache add [ 'lru-cache@lru-cache@2.3.1', null ]
+210 silly cache add name=undefined spec="lru-cache@lru-cache@2.3.1" args=["lru-cache@lru-cache@2.3.1",null]
+211 verbose parsed url { pathname: 'lru-cache@lru-cache@2.3.1',
+211 verbose parsed url   path: 'lru-cache@lru-cache@2.3.1',
+211 verbose parsed url   href: 'lru-cache@lru-cache@2.3.1' }
+212 silly cache add name="lru-cache" spec="lru-cache@2.3.1" args=["lru-cache","lru-cache@2.3.1"]
+213 verbose parsed url { pathname: 'lru-cache@2.3.1',
+213 verbose parsed url   path: 'lru-cache@2.3.1',
+213 verbose parsed url   href: 'lru-cache@2.3.1' }
+214 verbose addNamed [ 'lru-cache', 'lru-cache@2.3.1' ]
+215 verbose addNamed [ null, null ]
+216 info addNameTag [ 'lru-cache', 'lru-cache@2.3.1' ]
+217 verbose cache add [ 'forever-agent@forever-agent@0.5.0', null ]
+218 silly cache add name=undefined spec="forever-agent@forever-agent@0.5.0" args=["forever-agent@forever-agent@0.5.0",null]
+219 verbose parsed url { pathname: 'forever-agent@forever-agent@0.5.0',
+219 verbose parsed url   path: 'forever-agent@forever-agent@0.5.0',
+219 verbose parsed url   href: 'forever-agent@forever-agent@0.5.0' }
+220 silly cache add name="forever-agent" spec="forever-agent@0.5.0" args=["forever-agent","forever-agent@0.5.0"]
+221 verbose parsed url { pathname: 'forever-agent@0.5.0',
+221 verbose parsed url   path: 'forever-agent@0.5.0',
+221 verbose parsed url   href: 'forever-agent@0.5.0' }
+222 verbose addNamed [ 'forever-agent', 'forever-agent@0.5.0' ]
+223 verbose addNamed [ null, null ]
+224 info addNameTag [ 'forever-agent', 'forever-agent@0.5.0' ]
+225 verbose cache add [ 'mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz',
+225 verbose cache add   null ]
+226 silly cache add name=undefined spec="mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz" args=["mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz",null]
+227 verbose parsed url { pathname: 'mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz',
+227 verbose parsed url   path: 'mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz',
+227 verbose parsed url   href: 'mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz' }
+228 silly cache add name="mkdirp" spec="https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz" args=["mkdirp","https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz"]
+229 verbose parsed url { protocol: 'https:',
+229 verbose parsed url   slashes: true,
+229 verbose parsed url   host: 'registry.npmjs.org',
+229 verbose parsed url   hostname: 'registry.npmjs.org',
+229 verbose parsed url   href: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz',
+229 verbose parsed url   pathname: '/mkdirp/-/mkdirp-0.3.4.tgz',
+229 verbose parsed url   path: '/mkdirp/-/mkdirp-0.3.4.tgz' }
+230 verbose addRemoteTarball [ 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz', null ]
+231 verbose cache add [ 'node-uuid@node-uuid@1.4.1', null ]
+232 silly cache add name=undefined spec="node-uuid@node-uuid@1.4.1" args=["node-uuid@node-uuid@1.4.1",null]
+233 verbose parsed url { pathname: 'node-uuid@node-uuid@1.4.1',
+233 verbose parsed url   path: 'node-uuid@node-uuid@1.4.1',
+233 verbose parsed url   href: 'node-uuid@node-uuid@1.4.1' }
+234 silly cache add name="node-uuid" spec="node-uuid@1.4.1" args=["node-uuid","node-uuid@1.4.1"]
+235 verbose parsed url { pathname: 'node-uuid@1.4.1',
+235 verbose parsed url   path: 'node-uuid@1.4.1',
+235 verbose parsed url   href: 'node-uuid@1.4.1' }
+236 verbose addNamed [ 'node-uuid', 'node-uuid@1.4.1' ]
+237 verbose addNamed [ null, null ]
+238 info addNameTag [ 'node-uuid', 'node-uuid@1.4.1' ]
+239 verbose cache add [ 'oauth-sign@oauth-sign@0.3.0', null ]
+240 silly cache add name=undefined spec="oauth-sign@oauth-sign@0.3.0" args=["oauth-sign@oauth-sign@0.3.0",null]
+241 verbose parsed url { pathname: 'oauth-sign@oauth-sign@0.3.0',
+241 verbose parsed url   path: 'oauth-sign@oauth-sign@0.3.0',
+241 verbose parsed url   href: 'oauth-sign@oauth-sign@0.3.0' }
+242 silly cache add name="oauth-sign" spec="oauth-sign@0.3.0" args=["oauth-sign","oauth-sign@0.3.0"]
+243 verbose parsed url { pathname: 'oauth-sign@0.3.0',
+243 verbose parsed url   path: 'oauth-sign@0.3.0',
+243 verbose parsed url   href: 'oauth-sign@0.3.0' }
+244 verbose addNamed [ 'oauth-sign', 'oauth-sign@0.3.0' ]
+245 verbose addNamed [ null, null ]
+246 info addNameTag [ 'oauth-sign', 'oauth-sign@0.3.0' ]
+247 verbose cache add [ 'optimist@https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz',
+247 verbose cache add   null ]
+248 silly cache add name=undefined spec="optimist@https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz" args=["optimist@https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz",null]
+249 verbose parsed url { pathname: 'optimist@https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz',
+249 verbose parsed url   path: 'optimist@https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz',
+249 verbose parsed url   href: 'optimist@https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz' }
+250 silly cache add name="optimist" spec="https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz" args=["optimist","https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz"]
+251 verbose parsed url { protocol: 'https:',
+251 verbose parsed url   slashes: true,
+251 verbose parsed url   host: 'registry.npmjs.org',
+251 verbose parsed url   hostname: 'registry.npmjs.org',
+251 verbose parsed url   href: 'https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz',
+251 verbose parsed url   pathname: '/optimist/-/optimist-0.3.7.tgz',
+251 verbose parsed url   path: '/optimist/-/optimist-0.3.7.tgz' }
+252 verbose addRemoteTarball [ 'https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz',
+252 verbose addRemoteTarball   null ]
+253 verbose cache add [ 'qs@qs@0.6.4', null ]
+254 silly cache add name=undefined spec="qs@qs@0.6.4" args=["qs@qs@0.6.4",null]
+255 verbose parsed url { pathname: 'qs@qs@0.6.4',
+255 verbose parsed url   path: 'qs@qs@0.6.4',
+255 verbose parsed url   href: 'qs@qs@0.6.4' }
+256 silly cache add name="qs" spec="qs@0.6.4" args=["qs","qs@0.6.4"]
+257 verbose parsed url { pathname: 'qs@0.6.4', path: 'qs@0.6.4', href: 'qs@0.6.4' }
+258 verbose addNamed [ 'qs', 'qs@0.6.4' ]
+259 verbose addNamed [ null, null ]
+260 info addNameTag [ 'qs', 'qs@0.6.4' ]
+261 verbose cache add [ 'tunnel-agent@tunnel-agent@0.3.0', null ]
+262 silly cache add name=undefined spec="tunnel-agent@tunnel-agent@0.3.0" args=["tunnel-agent@tunnel-agent@0.3.0",null]
+263 verbose parsed url { pathname: 'tunnel-agent@tunnel-agent@0.3.0',
+263 verbose parsed url   path: 'tunnel-agent@tunnel-agent@0.3.0',
+263 verbose parsed url   href: 'tunnel-agent@tunnel-agent@0.3.0' }
+264 silly cache add name="tunnel-agent" spec="tunnel-agent@0.3.0" args=["tunnel-agent","tunnel-agent@0.3.0"]
+265 verbose parsed url { pathname: 'tunnel-agent@0.3.0',
+265 verbose parsed url   path: 'tunnel-agent@0.3.0',
+265 verbose parsed url   href: 'tunnel-agent@0.3.0' }
+266 verbose addNamed [ 'tunnel-agent', 'tunnel-agent@0.3.0' ]
+267 verbose addNamed [ null, null ]
+268 info addNameTag [ 'tunnel-agent', 'tunnel-agent@0.3.0' ]
+269 verbose cache add [ 'wordwrap@wordwrap@0.0.2', null ]
+270 silly cache add name=undefined spec="wordwrap@wordwrap@0.0.2" args=["wordwrap@wordwrap@0.0.2",null]
+271 verbose parsed url { pathname: 'wordwrap@wordwrap@0.0.2',
+271 verbose parsed url   path: 'wordwrap@wordwrap@0.0.2',
+271 verbose parsed url   href: 'wordwrap@wordwrap@0.0.2' }
+272 silly cache add name="wordwrap" spec="wordwrap@0.0.2" args=["wordwrap","wordwrap@0.0.2"]
+273 verbose parsed url { pathname: 'wordwrap@0.0.2',
+273 verbose parsed url   path: 'wordwrap@0.0.2',
+273 verbose parsed url   href: 'wordwrap@0.0.2' }
+274 verbose addNamed [ 'wordwrap', 'wordwrap@0.0.2' ]
+275 verbose addNamed [ null, null ]
+276 info addNameTag [ 'wordwrap', 'wordwrap@0.0.2' ]
+277 verbose cache add [ 'boom@boom@0.4.2', null ]
+278 silly cache add name=undefined spec="boom@boom@0.4.2" args=["boom@boom@0.4.2",null]
+279 verbose parsed url { pathname: 'boom@boom@0.4.2',
+279 verbose parsed url   path: 'boom@boom@0.4.2',
+279 verbose parsed url   href: 'boom@boom@0.4.2' }
+280 silly cache add name="boom" spec="boom@0.4.2" args=["boom","boom@0.4.2"]
+281 verbose parsed url { pathname: 'boom@0.4.2',
+281 verbose parsed url   path: 'boom@0.4.2',
+281 verbose parsed url   href: 'boom@0.4.2' }
+282 verbose addNamed [ 'boom', 'boom@0.4.2' ]
+283 verbose addNamed [ null, null ]
+284 info addNameTag [ 'boom', 'boom@0.4.2' ]
+285 verbose cache add [ 'combined-stream@combined-stream@0.0.4', null ]
+286 silly cache add name=undefined spec="combined-stream@combined-stream@0.0.4" args=["combined-stream@combined-stream@0.0.4",null]
+287 verbose parsed url { pathname: 'combined-stream@combined-stream@0.0.4',
+287 verbose parsed url   path: 'combined-stream@combined-stream@0.0.4',
+287 verbose parsed url   href: 'combined-stream@combined-stream@0.0.4' }
+288 silly cache add name="combined-stream" spec="combined-stream@0.0.4" args=["combined-stream","combined-stream@0.0.4"]
+289 verbose parsed url { pathname: 'combined-stream@0.0.4',
+289 verbose parsed url   path: 'combined-stream@0.0.4',
+289 verbose parsed url   href: 'combined-stream@0.0.4' }
+290 verbose addNamed [ 'combined-stream', 'combined-stream@0.0.4' ]
+291 verbose addNamed [ null, null ]
+292 info addNameTag [ 'combined-stream', 'combined-stream@0.0.4' ]
+293 verbose cache add [ 'http-signature@http-signature@0.10.0', null ]
+294 silly cache add name=undefined spec="http-signature@http-signature@0.10.0" args=["http-signature@http-signature@0.10.0",null]
+295 verbose parsed url { pathname: 'http-signature@http-signature@0.10.0',
+295 verbose parsed url   path: 'http-signature@http-signature@0.10.0',
+295 verbose parsed url   href: 'http-signature@http-signature@0.10.0' }
+296 silly cache add name="http-signature" spec="http-signature@0.10.0" args=["http-signature","http-signature@0.10.0"]
+297 verbose parsed url { pathname: 'http-signature@0.10.0',
+297 verbose parsed url   path: 'http-signature@0.10.0',
+297 verbose parsed url   href: 'http-signature@0.10.0' }
+298 verbose addNamed [ 'http-signature', 'http-signature@0.10.0' ]
+299 verbose addNamed [ null, null ]
+300 info addNameTag [ 'http-signature', 'http-signature@0.10.0' ]
+301 verbose cache add [ 'minimatch@minimatch@0.2.12', null ]
+302 silly cache add name=undefined spec="minimatch@minimatch@0.2.12" args=["minimatch@minimatch@0.2.12",null]
+303 verbose parsed url { pathname: 'minimatch@minimatch@0.2.12',
+303 verbose parsed url   path: 'minimatch@minimatch@0.2.12',
+303 verbose parsed url   href: 'minimatch@minimatch@0.2.12' }
+304 silly cache add name="minimatch" spec="minimatch@0.2.12" args=["minimatch","minimatch@0.2.12"]
+305 verbose parsed url { pathname: 'minimatch@0.2.12',
+305 verbose parsed url   path: 'minimatch@0.2.12',
+305 verbose parsed url   href: 'minimatch@0.2.12' }
+306 verbose addNamed [ 'minimatch', 'minimatch@0.2.12' ]
+307 verbose addNamed [ null, null ]
+308 info addNameTag [ 'minimatch', 'minimatch@0.2.12' ]
+309 verbose cache add [ 'sntp@sntp@0.2.4', null ]
+310 silly cache add name=undefined spec="sntp@sntp@0.2.4" args=["sntp@sntp@0.2.4",null]
+311 verbose parsed url { pathname: 'sntp@sntp@0.2.4',
+311 verbose parsed url   path: 'sntp@sntp@0.2.4',
+311 verbose parsed url   href: 'sntp@sntp@0.2.4' }
+312 silly cache add name="sntp" spec="sntp@0.2.4" args=["sntp","sntp@0.2.4"]
+313 verbose parsed url { pathname: 'sntp@0.2.4',
+313 verbose parsed url   path: 'sntp@0.2.4',
+313 verbose parsed url   href: 'sntp@0.2.4' }
+314 verbose addNamed [ 'sntp', 'sntp@0.2.4' ]
+315 verbose addNamed [ null, null ]
+316 info addNameTag [ 'sntp', 'sntp@0.2.4' ]
+317 verbose url raw cookie-jar
+318 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-jar' ]
+319 verbose url resolved https://registry.npmjs.org/cookie-jar
+320 http GET https://registry.npmjs.org/cookie-jar
+321 verbose url raw glob
+322 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+323 verbose url resolved https://registry.npmjs.org/glob
+324 http GET https://registry.npmjs.org/glob
+325 verbose url raw inherits
+326 verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+327 verbose url resolved https://registry.npmjs.org/inherits
+328 http GET https://registry.npmjs.org/inherits
+329 verbose url raw cryptiles
+330 verbose url resolving [ 'https://registry.npmjs.org/', './cryptiles' ]
+331 verbose url resolved https://registry.npmjs.org/cryptiles
+332 http GET https://registry.npmjs.org/cryptiles
+333 verbose url raw lru-cache
+334 verbose url resolving [ 'https://registry.npmjs.org/', './lru-cache' ]
+335 verbose url resolved https://registry.npmjs.org/lru-cache
+336 http GET https://registry.npmjs.org/lru-cache
+337 verbose url raw forever-agent
+338 verbose url resolving [ 'https://registry.npmjs.org/', './forever-agent' ]
+339 verbose url resolved https://registry.npmjs.org/forever-agent
+340 http GET https://registry.npmjs.org/forever-agent
+341 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434437-0.2588449076283723\tmp.tgz
+342 verbose url raw node-uuid
+343 verbose url resolving [ 'https://registry.npmjs.org/', './node-uuid' ]
+344 verbose url resolved https://registry.npmjs.org/node-uuid
+345 http GET https://registry.npmjs.org/node-uuid
+346 verbose url raw oauth-sign
+347 verbose url resolving [ 'https://registry.npmjs.org/', './oauth-sign' ]
+348 verbose url resolved https://registry.npmjs.org/oauth-sign
+349 http GET https://registry.npmjs.org/oauth-sign
+350 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434438-0.5541441014502198\tmp.tgz
+351 verbose url raw qs
+352 verbose url resolving [ 'https://registry.npmjs.org/', './qs' ]
+353 verbose url resolved https://registry.npmjs.org/qs
+354 http GET https://registry.npmjs.org/qs
+355 verbose url raw tunnel-agent
+356 verbose url resolving [ 'https://registry.npmjs.org/', './tunnel-agent' ]
+357 verbose url resolved https://registry.npmjs.org/tunnel-agent
+358 http GET https://registry.npmjs.org/tunnel-agent
+359 verbose url raw wordwrap
+360 verbose url resolving [ 'https://registry.npmjs.org/', './wordwrap' ]
+361 verbose url resolved https://registry.npmjs.org/wordwrap
+362 http GET https://registry.npmjs.org/wordwrap
+363 verbose url raw boom
+364 verbose url resolving [ 'https://registry.npmjs.org/', './boom' ]
+365 verbose url resolved https://registry.npmjs.org/boom
+366 http GET https://registry.npmjs.org/boom
+367 verbose url raw combined-stream
+368 verbose url resolving [ 'https://registry.npmjs.org/', './combined-stream' ]
+369 verbose url resolved https://registry.npmjs.org/combined-stream
+370 http GET https://registry.npmjs.org/combined-stream
+371 verbose url raw http-signature
+372 verbose url resolving [ 'https://registry.npmjs.org/', './http-signature' ]
+373 verbose url resolved https://registry.npmjs.org/http-signature
+374 http GET https://registry.npmjs.org/http-signature
+375 verbose url raw minimatch
+376 verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+377 verbose url resolved https://registry.npmjs.org/minimatch
+378 http GET https://registry.npmjs.org/minimatch
+379 verbose url raw sntp
+380 verbose url resolving [ 'https://registry.npmjs.org/', './sntp' ]
+381 verbose url resolved https://registry.npmjs.org/sntp
+382 http GET https://registry.npmjs.org/sntp
+383 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434411-0.8711715571116656\tmp.tgz
+384 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434411-0.6053455315995961\tmp.tgz
+385 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434412-0.4063105487730354\tmp.tgz
+386 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434413-0.30850527225993574\tmp.tgz
+387 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434416-0.6720610742922872\tmp.tgz
+388 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434417-0.0976227733772248\tmp.tgz
+389 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434412-0.09179594623856246\tmp.tgz
+390 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434413-0.33922722027637064\tmp.tgz
+391 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434418-0.08370031276717782\tmp.tgz
+392 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434417-0.20617437036707997\tmp.tgz
+393 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434417-0.8331301768776029\tmp.tgz
+394 verbose fetch to= C:\Users\jake\AppData\Local\Temp\npm-1495115434411\1495115434418-0.1629212365951389\tmp.tgz
+395 http GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz
+396 http GET https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz
+397 http GET https://registry.npmjs.org/async/-/async-0.2.7.tgz
+398 http GET https://registry.npmjs.org/bower/-/bower-1.2.7.tgz
+399 http GET https://registry.npmjs.org/csv/-/csv-0.3.0.tgz
+400 http GET https://registry.npmjs.org/deep-freeze/-/deep-freeze-0.0.1.tgz
+401 http GET https://registry.npmjs.org/express-slash/-/express-slash-0.2.0.tgz
+402 http GET https://registry.npmjs.org/express3-handlebars/-/express3-handlebars-0.5.0.tgz
+403 http GET https://registry.npmjs.org/db-migrate/-/db-migrate-0.4.1.tgz
+404 http GET https://registry.npmjs.org/express/-/express-3.2.4.tgz
+405 http GET https://registry.npmjs.org/pg/-/pg-1.1.0.tgz
+406 http GET https://registry.npmjs.org/express-state/-/express-state-0.0.2.tgz
+407 http GET https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz
+408 http GET https://registry.npmjs.org/request/-/request-2.25.0.tgz
+409 error Error: SSL Error: CERT_UNTRUSTED
+409 error     at ClientRequest.<anonymous> (C:\Users\jake\AppData\Roaming\nvm\v0.8.0\node_modules\npm\node_modules\request\main.js:409:26)
+409 error     at ClientRequest.g (events.js:185:14)
+409 error     at ClientRequest.EventEmitter.emit (events.js:88:17)
+409 error     at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1445:7)
+409 error     at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:111:23)
+409 error     at CleartextStream.socketOnData [as ondata] (http.js:1356:20)
+409 error     at CleartextStream.CryptoStream._push (tls.js:396:27)
+409 error     at SecurePair.cycle (tls.js:751:20)
+409 error     at EncryptedStream.CryptoStream.write (tls.js:131:13)
+409 error     at Socket.ondata (stream.js:38:26)
+409 error  [Error: SSL Error: CERT_UNTRUSTED]
+410 error You may report this log at:
+410 error     <http://github.com/isaacs/npm/issues>
+410 error or email it to:
+410 error     <npm-@googlegroups.com>
+411 error System Windows_NT 6.2.9200
+412 error command "C:\\PROGRAM FILES\\NODEJS\\node.exe" "C:\\PROGRAM FILES\\NODEJS\\node_modules\\npm\\bin\\npm-cli.js" "install"
+413 error cwd C:\Users\jake\My Documents\GitHub\wedding
+414 error node -v v0.8.0
+415 error npm -v 1.1.32
+416 error message SSL Error: CERT_UNTRUSTED
+417 verbose exit [ 1, true ]

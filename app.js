@@ -40,7 +40,7 @@ app.locals({
     yui_version: config.yui.version,
 
     nav: [
-        {id: 'wedding',   url: '/wedding/',   label: 'Wedding'},
+        {id: 'wedding',   url: '/wedding/',   label: 'Ceremony'},
         {id: 'logistics', url: '/logistics/', label: 'Logistics'},
         {id: 'rsvp',      url: '/rsvp/',      label: 'RSVP'}
     ],
