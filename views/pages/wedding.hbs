@@ -15,19 +15,19 @@
     </h1>
 
     <ol class="cal l-contain l-grid">
-        {{#day "Friday 4"}}
+        {{#day "Friday 22"}}
             {{addDayEvent "evening-before"
                 start = "8pm"
-                end   = "1am"
-                desc  = "Drinks @ Washington St. Pub & Oyster Bar"}}
+                end   = "11pm"
+                desc  = "Rehersal Dinner @ ???"}}
 
             {{> day/header}}
             {{> day/events}}
         {{/day}}
 
-        {{#day "Saturday 5" primary=true}}
+        {{#day "Saturday 23" primary=true}}
             {{addDayEvent "ceremony"
-                start = "4:30pm"
+                start = "3:30pm"
                 desc  = "Wedding Ceremony"}}
 
             {{addDayEvent "ceremony"
@@ -40,10 +40,10 @@
         {{/day}}
 
         {{#day "Sunday 6"}}
-            {{addDayEvent "brunch"
+            {{addDayEvent "say goodbye"
                 start = "11am"
                 end   = "1pm"
-                desc  = "Informal Brunch Buffet"}}
+                desc  = "bi yall"}}
 
             {{> day/header}}
             {{> day/events}}
