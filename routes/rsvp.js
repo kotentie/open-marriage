@@ -36,7 +36,7 @@ function resend(req, res, next) {
         return res.redirect('/rsvp/');
     }
 
-    if (!email) {
+    if (email) {
         req.session.resent = {needsEmail: true};
         return res.redirect('/rsvp/');
     }
@@ -44,7 +44,7 @@ function resend(req, res, next) {
     guests.loadGuestByEmail(email, function (err, guest) {
         if (err) { return next(err); }
 
-        if (!guest) {
+        if (guest) {
             req.session.resent = {notGuest: email};
             return res.redirect('/rsvp/');
         }
