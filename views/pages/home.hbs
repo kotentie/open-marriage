@@ -59,6 +59,20 @@
     {{> event/time}}
   {{/event}}
 
+     {{#event "Jake finds out he has ALS"
+        time  = "October 2016"
+        photo = "/photos/IMG_6376.jpg"}}
+
+    {{> event/header}}
+    {{> event/photo}}
+
+    <p class="button-wedding">
+        <a class="button" data-icon="i" href="/registry/">Learn more about ALS</a>
+    </p>
+
+    {{> event/time}}
+  {{/event}}
+
       {{#event "Holloween"
         time  = "October 2016"
         photo = "/photos/IMG_6008.jpg"}}
@@ -271,7 +285,7 @@
 
     <li class="timeline-events">
         <ol class="l-grid">
-          {{#event "Moved: Chicago to Austin"
+          {{#event "Jake moves to Austin"
                 time = "May 2014"}}
 
             {{> event/header}}
