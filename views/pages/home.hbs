@@ -29,6 +29,20 @@
     {{> event/time}}
   {{/event}}
 
+    {{#event "Holloween"
+        time  = "September 2017"
+        photo = "/photos/IMG_6008.jpg"}}
+
+    {{> event/header}}
+    {{> event/photo}}
+
+    <p>
+       Bob Ross and his painting.
+    </p>
+
+    {{> event/time}}
+  {{/event}}
+
       {{#event "Holloween"
         time  = "October 2016"
         photo = "/photos/IMG_6008.jpg"}}
@@ -177,8 +191,7 @@
         photo  = "/photos/IMG_4106.JPG"}}
 
     {{> event/header}}
-    {{> event/map}}
-
+     {{> event/photo}}
     <p>
        Jake's side chick
     </p>
@@ -187,25 +200,13 @@
   {{/event}}
 
 
-  {{#event "Jake Bowls for Babies"
-        time  = "June 2015"
-        photo = "/photos/IMG_3927.JPG"}}
-
-    {{> event/header}}
-    {{> event/photo}}
-
-    <p>
-       Foreshadowing?
-    </p>
-
-    {{> event/time}}
-  {{/event}}
 
   {{#event "Jake meets Candy"
         time = "November 2014"
-        photo = "/photos/IMG_3747.jpg"}}
+       photo = "/photos/IMG_3747.jpg"}}
 
     {{> event/header}}
+     {{> event/photo}}
 
     <p>
        Jake has never meet a candy he didn't like. This was not an exception. (Candy not not in the picture it would have been too sweat) 
@@ -221,7 +222,7 @@
         time  = "September 2014"
         photo = "/photos/IMG_3019.JPG"}}
 
-    {{> event/header}}
+    {{> event/header}}  
     {{> event/photo}}
 
     <p>
@@ -244,32 +245,20 @@
     <li class="timeline-events">
         <ol class="l-grid">
           {{#event "Moved: Chicago to Austin"
-                who  = "Jake"
                 time = "May 2014"
                 photo  = "https://api.mapbox.com/styles/v1/kotentie/cj2toz0rg000s2rmms9z037bf/static/-94.213876,36.855073,4.18,0.00,0.00/600x600?access_token=pk.eyJ1Ijoia290ZW50aWUiLCJhIjoiY2oydG9xdWplMDA5czJ4czMxcmJ3eHZiaSJ9.S9nS3u46SllBpli9o2ht0w"}}
 
             {{> event/header}}
-            {{> event/map}}
-
-            <p>
-                After graduating from Michigan State University, Eric headed East and moved to Boston.
-            </p>
-
+             {{> event/photo}}
             {{> event/time}}
           {{/event}}
 
           {{#event "Moved: Des Moines to Boston"
-                who  = "Susy"
                 time = "September 2011"
                 photo  = "https://api.mapbox.com/styles/v1/kotentie/cj2toz0rg000s2rmms9z037bf/static/-96.143673,36.978841,4.18,0.00,0.00/400x600?access_token=pk.eyJ1Ijoia290ZW50aWUiLCJhIjoiY2oydG9xdWplMDA5czJ4czMxcmJ3eHZiaSJ9.S9nS3u46SllBpli9o2ht0w"}}
 
             {{> event/header}}
-            {{> event/map}}
-
-            <p>
-                After graduating from Virginia Tech, Leslie headed North and moved to Boston.
-            </p>
-
+             {{> event/photo}}
             {{> event/time}}
           {{/event}}
         </ol>
