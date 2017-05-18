@@ -32,11 +32,8 @@ function resend(req, res, next) {
     var email = req.body.email.trim();
 
     // Always redirect to "/rsvp/" after the wedding.
-    if (req.afterWedding) {
-        return res.redirect('/rsvp/');
-    }
 
-    if (email) {
+    if (!email) {
         req.session.resent = {needsEmail: true};
         return res.redirect('/rsvp/');
     }
@@ -44,7 +41,7 @@ function resend(req, res, next) {
     guests.loadGuestByEmail(email, function (err, guest) {
         if (err) { return next(err); }
 
-        if (guest) {
+        if (!guest) {
             req.session.resent = {notGuest: email};
             return res.redirect('/rsvp/');
         }
@@ -70,10 +67,6 @@ function login(req, res, next) {
 
     // Prevent RSVP logins after the wedding has happened, and _always_ redirect
     // to "/rsvp/".
-    if (req.afterWedding) {
-        delete req.session.invitation;
-        return res.redirect('/rsvp/');
-    }
 
     try {
         invitationId = invs.decipherId(req.params.invitation_key);
