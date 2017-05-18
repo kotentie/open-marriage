@@ -12,7 +12,7 @@ var combo   = require('combohandler'),
 
 // -- Configure ----------------------------------------------------------------
 
-app.set('name', 'Leslie-Eric Wedding');
+app.set('name', 'Jakusy Wedding');
 app.set('env', config.env);
 app.set('port', config.port);
 app.set('views', config.dirs.views);
@@ -42,7 +42,6 @@ app.locals({
     nav: [
         {id: 'wedding',   url: '/wedding/',   label: 'Wedding'},
         {id: 'logistics', url: '/logistics/', label: 'Logistics'},
-        {id: 'registry',  url: '/registry/',  label: 'Registry'},
         {id: 'rsvp',      url: '/rsvp/',      label: 'RSVP'}
     ],
 
