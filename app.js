@@ -43,7 +43,7 @@ app.locals({
         {id: 'wedding',   url: '/wedding/',   label: 'Ceremony'},
         {id: 'logistics', url: '/logistics/', label: 'Logistics'},
         {id: 'registry',  url: '/registry/',  label: 'ALS'},
-        {id: 'rsvp',      url: '/rsvp/',      label: 'RSVP'}
+        {id: 'rsvp',      url: 'https://docs.google.com/forms/d/e/1FAIpQLScjWP8yPXr1i59DDDfLeJBO3TjWIXSMxWyvwByt3PvUd2zJog/viewform?usp=sf_link',      label: 'RSVP'}
     ],
 
     subnav: {
