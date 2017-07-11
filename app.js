@@ -42,7 +42,9 @@ app.locals({
     nav: [
         {id: 'wedding',   url: '/wedding/',   label: 'Ceremony'},
         {id: 'logistics', url: '/logistics/', label: 'Logistics'},
-        {id: 'registry',  url: '/registry/',  label: 'ALS'},
+        {id: 'registry',  url: '/als/',  label: 'ALS'},
+        {id: 'registrz',  url: 'https://www.honeyfund.com/wedding/Jakusy',  label: 'Registry'},
+        {id: 'ride',  url: 'https://docs.google.com/spreadsheets/d/1p1qp4YzIeoWdWswa0Ok_VQra34s48kMcKYWhfO5sgM8',  label: 'Ridesharing'},
         {id: 'rsvp',      url: 'https://docs.google.com/forms/d/e/1FAIpQLScjWP8yPXr1i59DDDfLeJBO3TjWIXSMxWyvwByt3PvUd2zJog/viewform?usp=sf_link',      label: 'RSVP'}
     ],
 
